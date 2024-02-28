@@ -7,65 +7,63 @@
     <link rel="shortcut icon" href="assets/android-chrome-512x512.png" type="image/x-icon">
   </head>
   <style>
-    #resume{
-        color: orange;
-        font-weight: bolder;    
+    #header{
+        background-color: aquamarine;
     }
+    #head{
+        color: rgb(59, 59, 6);
+    }
+    #tag{
+        color: rgb(59, 59, 6);
+    }
+    #new{
+        text-transform: uppercase;
+        font-size: large;
+        }
     .heading{
-        color: cadetblue;
-        font-style: italic;
+    color: rgb(9, 82, 82);
+    background-color: rgb(183, 211, 211);
     }
-    .title{
-        color: blueviolet;
-        font-weight: bolder;
+    #onlytext{
+        color: darkred;
+        background-color: rgb(177, 177, 154);
     }
-    .matter{
-        color: brown;
-        font-weight: bolder;
+    .play{
+        color: blue;
+        background-color: azure;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        text-decoration: underline;
+    
     }
-    #web{
-        color: hotpink;
-        font-weight: bolder;
-    }
-    .abc{
-        color: green;
-        font-weight: bolder;
-
-    }
-    #cb{
-        color: darkolivegreen;
-        font-weight: bolder;
-    }
-
-
   </style>
   <body>
     <!-- Header Section -->
-    <header>
-        <p class="matter"><svg class="title" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+    <header id="header" >
+        <p><svg id="tag" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
             <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
-          </svg> Piyush Sagore &nbsp;&nbsp; <svg class="title" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+          </svg> <span id="head">Piyush Sagore &nbsp;&nbsp;</span>  <svg id="tag" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-          </svg> 916 888 2850 &nbsp;&nbsp; <svg class="title" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+          </svg><span id="head">916 888 2850&nbsp;&nbsp;</span>   <svg id="tag" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
             <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"/>
             <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"/>
-          </svg> piyushsagore0310@gmail.com&nbsp; &nbsp; &nbsp; 
-          <a href="assets/Resume.pdf" id="resume" download><small>
-            <svg class="title" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-arrow-down-fill" viewBox="0 0 16 16">
+          </svg> <span id="head">piyushsagore0310@gmail.com&nbsp; &nbsp; &nbsp; </span>
+          <a href="assets/Resume.pdf" download><small>
+            <svg id="tag" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-arrow-down-fill" viewBox="0 0 16 16">
                 <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M8 5a.5.5 0 0 1 .5.5v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5A.5.5 0 0 1 8 5"/>
               </svg>
-             Resume</small></a>
+              <span id="head">Resume</span></small></a>
         </p>
     </header>
 
     <!-- Navigation Sectin -->
     <nav>
-        <a id="web" href="#HOME">HOME</a>&nbsp;&nbsp;
-        <a id="web" href="#techStack">TECH STACK</a>&nbsp;&nbsp;
-        <a id="web" href="#project">PROJECTS</a>&nbsp;&nbsp;
-        <a id="web" href="#education">EDUCATION</a>&nbsp;&nbsp;
-        <a id="web" href="personalDetails.html" target="_blank">PERSONAL DETAILS</a>&nbsp;&nbsp;
-        <a id="web" href="others.html" target="_blank">OTHERS</a>
+        <a href="#HOME">Home</a>&nbsp;&nbsp;
+        <a href="#techStack">TECH STACK</a>&nbsp;&nbsp;
+        <a href="#project">PROJECTS</a>&nbsp;&nbsp;
+        <a href="#education">EDUCATION</a>&nbsp;&nbsp;
+        <a href="personalDetails.html" target="_blank">PERSONAL DETAILS</a>&nbsp;&nbsp;
+        <a href="others.html" target="_blank">OTHERS</a>
     </nav>
 
     <!-- Main Section   -->
@@ -73,21 +71,24 @@
         <!-- HOME Section -->
     
         <section id="home">
-    
+             <h2 class="heading">Career Objectives</h2>
+             <p>
+                <span id="new">To Work in organization where i can learn and grow my skills and help organizational growth <br></span>
+             </p>
             <h2 class="heading">Professional Summary  </h2>
     
             <ul>
     
-                <li style="color: cadetblue">Having 1 yerar of experiance in developing Single page web Applications using Angilar 8,
+                <li>Having 1 yerar of experiance in developing Single page web Applications using  <span id="onlytext">Angular 8</span>,
                     HTMl5,CSS3,Bootstrap 5, Javascript<typescript</li>
-                <li class="abc">Experiance on working with version control system - GIT and Github</li>
-                <li class="abc">Experiance working with JIRA for user stories and bug tracking,</li>
+                <li class="play">Experience on working with version control system - GIT and Github</li>
+                <li>Experience working with JIRA for user stories and bug tracking,</li>
                 <li>Strong Debugging & Troubleshooting code experiance using Chrome Developer Tool</li>
-                <li class="abc">Working expossure on ID's like VS code and Notepad++</li>
+                <li>Working expossure on ID's like VS code and Notepad++</li>
                 <li>Good working experience under Agile methdologies environment</li>
                 <li>Experience in using Chrome Developer Tool for debugging and troubleshooting the code</li>
                 <li>knowledge of NodeJS</li>
-                <li id="cb">Ability to work with people at all levels in the program in using Chrome Developer Tool for debugging
+                <li>Ability to work with people at all levels in the program in using Chrome Developer Tool for debugging
                     and troubleshooting the code</li>
     
             </ul>
@@ -96,7 +97,7 @@
         <hr>
       <!-- Technology stack section -->
       <section id="techStack">
-        <h2 class="heading">My Technology stack</h2>
+        <h2>My Technology stack</h2>
         <table border="2">
             <thead>
                 <th>sr.no</th>
@@ -132,7 +133,7 @@
        <!-- Project Section -->
       <section id="project">
 
-        <h2 class="heading">Project Details</h2><hr>
+        <h2>Project Details</h2><hr>
     <p><b>Name:</b>&nbsp;&nbsp;<U><B>Student Management</B></U><Br> <br>
    <b><u>Environment:</u></b>&nbsp;&nbsp;Angular, React, Java, JavaScript, HTM1, CSS,
     Bootstrap, GitHub, Agile and JIRA <br><br>
