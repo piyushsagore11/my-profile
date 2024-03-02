@@ -52,6 +52,22 @@
         text-decoration: underline;
     
     }
+     table, td, th, tr {
+        border: 2px solid cadetblue;
+        border-collapse: collapse;
+    }
+    #listSummary li{
+        list-style-type: none;
+      }
+      #listSummary li::marker{
+        content: "✍️";
+      }
+      .roles ol{
+        list-style-type: lower-alpha;
+      }
+      #projectdesp::selection{
+      background-color: rgb(241, 193, 104);
+    }
 
   </style>
   <body>
@@ -90,7 +106,7 @@
              </p>
             <h2 class="heading">Professional Summary  </h2>
     
-            <ul>
+            <ul id="listSummary" >
     
                 <li>Having 1 yerar of experiance in developing Single page web Applications using  <span id="onlytext">Angular 8</span>,
                     HTMl5,CSS3,Bootstrap 5, Javascript, typescript</li>
@@ -111,7 +127,7 @@
       <!-- Technology stack section -->
       <section id="techStack">
         <h2>My Technology stack</h2>
-        <table border="2">
+        <table>
             <thead>
                 <th>sr.no</th>
                 <th>Technology Stack</th>
@@ -151,18 +167,20 @@
    <b><u>Environment:</u></b>&nbsp;&nbsp;Angular, React, Java, JavaScript, HTM1, CSS,
     Bootstrap, GitHub, Agile and JIRA <br><br>
    <b>Team Size :</b> 06 &nbsp;&nbsp;&nbsp;&nbsp;<b>Duration:</b><i>2021-1<sup>st</sup> -July till <u>present</u> </i><br><br>
-  <b>Project Description:</b>  This project is mainly used for student management in colleges, where it helps to manage student record like <br>
+  <p id="projectdesp"><b>Project Description:</b>  This project is mainly used for student management in colleges, where it helps to manage student record like <br>
     student registration, student update, and to see all the list of academic activities like score card and attendance
+</p>
     <hr>
     <h2> Roles and Responsibilities</h2>
-<ul><li>Designed and Implemented the user interface using HTML5 and CSS3</li>
+<ol class="roles">
+<li>Designed and Implemented the user interface using HTML5 and CSS3</li>
 <li>Work closely with backend developers for code integration</li>
 <li>Identifying and troubleshooting issues in front end codebase</li>
 <li>Worked in GIT as a version control</li>
 <li>Used JIRA for bug tracking</li>
 <li>Implemented project using Agile SCRUM methodology, involved in daily stand up calls, sprint retrospective meetings</li>
 <li>involved in fixing technical issues in production environment</li>
-</ul>
+</ol>
 	 </p>
       </section>
       <hr>
@@ -170,7 +188,7 @@
       <!-- Education Section -->
       <section id="education">
         <h2>Education Details</h2>
-        <table border="1.2">
+        <table>
             <thead>
                 <th>Qualification</th>
                 <th>school/College Name</th>
