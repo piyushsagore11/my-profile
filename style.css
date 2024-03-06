@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+   *{
+    margin: 0;
+    box-sizing: border-box;
+   }
+   td{
+    padding: 10px;
+   }
+   th{
+    padding: 10px;
+   }
+   li{
+    padding: 10px;
+   }
+   #nbsp{
+    margin: 30px;
+   }
+   #header{
+        background-color: aquamarine;
+    }
+    #head{
+        color: rgb(59, 59, 6);
+        margin-right: 30px;
+    }
+    #tag{
+        color: rgb(59, 59, 6);
+    }
+    #new{
+        text-transform: uppercase;
+        font-size: large;
+        }
+    .heading{
+    color: rgb(9, 82, 82);
+    background-color: rgb(183, 211, 211);
+    }
+    #onlytext{
+        color: darkred;
+        background-color: rgb(177, 177, 154);
+    }
+    .play{
+        color: blue;
+        background-color: azure;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        text-decoration: underline;
+    
+    }
+     table, td, th, tr {
+        border: 2px solid cadetblue;
+        border-collapse: collapse;
+    }
+    #listSummary li{
+        list-style-type: none;
+      }
+      #listSummary li::marker{
+        content: "✍️";
+      }
+      .roles ol{
+        list-style-type: lower-alpha;
+      }
+      #projectdesp::selection{
+      background-color: rgb(241, 193, 104);
+    }
